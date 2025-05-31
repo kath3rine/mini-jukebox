@@ -33,7 +33,7 @@ void setup() {
 
 
 void loop() {
-    //Serial.println("Hello from Arduino!"); // Send data over serial port
+    Serial.println("Hello from Arduino!"); // Send data over serial port
     delay(1000); // Wait for 1 second
     bool initializationSuccessful2 = mfrc522.PCD_PerformSelfTest();
     if (!initializationSuccessful2) {
